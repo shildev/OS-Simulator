@@ -1,6 +1,6 @@
 # OS-Simulator
 
-An Operating Systsem simulator developed through the use of Java methods. A Netbeans compiler is used to run the program.
+An Operating System simulator developed through the use of Java methods. A Netbeans compiler is used to run the program.
 
 The simulator begins from booting the Shell, where critical variables and function parameters that can be used in further processing are initialized. Then it involves applying four separate process scheduling algorithms to represent a real operating system working framework in process scheduling. So it comes to the scheduling portion of the OS after booting, and here it asks the user for total number of processes along with their arrival and burst time for each process divided by space on which the scheduling algorithms will be simulated.
 
