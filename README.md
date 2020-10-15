@@ -3,7 +3,7 @@
 
 An Operating System simulator developed through the use of Java methods. A Netbeans IDE is used to run the program.
 
-(READ FOR MORE DETAILED INFO. SKIP IF YOU JUST WANT TO SEE HOW TO CONFIGURE.)
+(READ FOR MORE DETAILED INFO. SKIP TO BOTTOM IF YOU JUST WANT TO SEE HOW TO CONFIGURE.)
 
 The simulator begins from booting the Shell, where critical variables and function parameters that can be used in further processing are initialized. Then it involves applying four separate process scheduling algorithms to represent a real operating system working framework in process scheduling. So it comes to the scheduling portion of the OS after booting, and here it asks the user for total number of processes along with their arrival and burst time for each process divided by space on which the scheduling algorithms will be simulated.
 
