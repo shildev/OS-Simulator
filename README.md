@@ -1,7 +1,9 @@
 # OS-Simulator
 
+
 An Operating System simulator developed through the use of Java methods. A Netbeans IDE is used to run the program.
 
+(READ FOR MORE DETAILED INFO. SKIP IF YOU JUST WANT TO SEE HOW TO CONFIGURE.)
 The simulator begins from booting the Shell, where critical variables and function parameters that can be used in further processing are initialized. Then it involves applying four separate process scheduling algorithms to represent a real operating system working framework in process scheduling. So it comes to the scheduling portion of the OS after booting, and here it asks the user for total number of processes along with their arrival and burst time for each process divided by space on which the scheduling algorithms will be simulated.
 
 The simulator contains a Memory Management Unit.
@@ -17,3 +19,11 @@ The program contains a class named as multiprocessing which implements the threa
 functionality is being implemented in the run function of the multiprocessing class. Then the functionality is called using the start functionality of the object of the multiprocessing class. 
 
 The functionality of synchronization is being implemented using the semaphore object in java as the object named ‘MUTEX’, which is an object of the semaphore class. It's purpose is to implement synchronization and avoid the code from the race condition so that the output can be produced accurately. Moreover, the synchronized functionality of Java has also been used to ensure concurrency and synchronization.
+
+Initial Configuration
+In order to setup and compile the code extract the zip file in the folder of choice.
+• Open Netbeans software and in the file menu click open project.
+• Locate the extracted folder and double click on OS_Simulator.
+• Then when the project completes loading open the file OS_Simulator->Source Packages>OS->OS.java.
+• Then press F6 or click on the green arrow located above.
+• The output screen will be displayed and the project will start running.
