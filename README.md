@@ -21,9 +21,15 @@ functionality is being implemented in the run function of the multiprocessing cl
 The functionality of synchronization is being implemented using the semaphore object in java as the object named ‘MUTEX’, which is an object of the semaphore class. It's purpose is to implement synchronization and avoid the code from the race condition so that the output can be produced accurately. Moreover, the synchronized functionality of Java has also been used to ensure concurrency and synchronization.
 
 Initial Configuration
+
 In order to setup and compile the code extract the zip file in the folder of choice.
+
 • Open Netbeans software and in the file menu click open project.
+
 • Locate the extracted folder and double click on OS_Simulator.
+
 • Then when the project completes loading open the file OS_Simulator->Source Packages>OS->OS.java.
+
 • Then press F6 or click on the green arrow located above.
+
 • The output screen will be displayed and the project will start running.
